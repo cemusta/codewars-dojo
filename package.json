@@ -1,0 +1,37 @@
+{
+  "name": "codewars-practice",
+  "version": "1.0.0",
+  "description": "a repo for solving codewars questions",
+  "homepage": "https://github.com/cemusta/koa-graphql#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cemusta/koa-graphql.git"
+  },
+  "license": "MIT",
+  "main": "/src/app.ts",
+  "scripts": {
+    "coverage": "jest --coverage",
+    "lint": "eslint .",
+    "start": "ts-node ./src/main.ts",
+    "test": "jest",
+    "transpile": "tsc --project ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/jest": "^28.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "chai": "^4.3.6",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.5.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^28.1.1",
+    "pino-pretty": "^8.0.0",
+    "ts-jest": "^28.0.4",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
+  }
+}
