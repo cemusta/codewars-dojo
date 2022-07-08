@@ -1,14 +1,13 @@
 {
-  "name": "codewars-practice",
+  "name": "codewars-dojo",
   "version": "1.0.0",
-  "description": "a repo for solving codewars questions",
-  "homepage": "https://github.com/cemusta/koa-graphql#readme",
+  "description": "a repo for solving codewars katas",
+  "homepage": "https://github.com/cemusta/codewars-dojo#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cemusta/koa-graphql.git"
   },
   "license": "MIT",
-  "main": "/src/app.ts",
   "scripts": {
     "coverage": "jest --coverage",
     "lint": "eslint .",
